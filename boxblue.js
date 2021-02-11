@@ -15,7 +15,7 @@ class Box extends BaseClass
     {
       World.remove(world,this.body);
       push();
-      this.Visibility=this.Visibility-5;
+      this.Visibility=this.Visibility-10;
       tint(255,this.Visibility);
       var pos=this.body.position;
       image(this.image,pos.x,pos.y,this.width,this.height)
